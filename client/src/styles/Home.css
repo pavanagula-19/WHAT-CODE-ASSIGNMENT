@@ -1,0 +1,223 @@
+
+.body-container {
+    width: 1280px;
+    height: 832px;
+    background: #F7F7F7;
+    margin: auto;
+}
+
+.nav-parent {
+width: 1280px;
+height: 90px;
+flex-shrink: 0;
+background: #DFDFDF;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+margin-bottom: 86px;
+}
+
+.nav-logo {
+display: flex;
+width: 128px;
+height: 77px;
+}
+
+.login-parent {
+    width: 1280px;
+    height: 382px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.logo-card {
+    width: 633px;
+    height: 381.677px;
+    flex-shrink: 0;
+    border: 1px solid;
+    margin-left: 38px;
+}
+
+
+.logo-header {
+color: #000;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 163px;
+margin-bottom: 8px;
+}
+input {
+width: 330px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #887E7E;
+margin-left: 163px;
+margin-bottom: 8px;
+box-sizing: border-box;
+padding-left: 10px;
+}
+
+.forgot-password {
+    width: 132px;
+    height: 22px;
+    color: #635C5C;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 361px;
+cursor: pointer;
+margin-bottom: 18px;
+margin-top: 7px;
+}
+
+.login-btn{
+    width: 330px;
+    height: 60px;
+    flex-shrink: 0;
+    margin-left: 163px;
+    cursor: pointer;
+}
+
+button {
+    width: 330px;
+    height: 60px;
+    border: none;
+    border-radius: 34px;
+    background: linear-gradient(167deg, #F54874 0%, #EC008C 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.login-btn-txt {
+    width: 66px;
+    height: 33px;
+    margin-left: 128px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.zip-parent {
+    display: flex;
+    width: 353px;
+    height: 3px;
+    margin-left: 163px;
+    margin-top: 31px;
+}
+.zip-line-one {
+    width: 132px;
+    height: 3px;
+    flex-shrink: 0;
+    margin-top: 4px;
+    background: linear-gradient(228deg, #CA4365 0%, rgba(196, 196, 196, 0.00) 100%);
+}
+
+.zip-txt {
+    width: 89px;
+    height: 16px;
+    color: #555252;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    
+}
+
+.zip-line-two {
+width: 132px;
+height: 3px;
+flex-shrink: 0;
+margin-top: 4px;
+background: linear-gradient(228deg, #CA4365 0%, rgba(196, 196, 196, 0.00) 100%);
+}
+
+.social-media {
+    display: flex;
+    width: 420px;
+    height: 52px;
+    margin-top: 25px;
+    margin-left: 163px;
+}
+
+.google-logo {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    fill: #ECE9EC;
+    stroke-width: 0.4px;
+    stroke: #F89AEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECE9EC;
+    margin-right: 16px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+.google-logo > img {
+   width: 23px;
+   height: 23px;
+   cursor: pointer;
+
+}
+
+.facebook-logo {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    fill: #ECE9EC;
+    stroke-width: 0.4px;
+    stroke: #F89AEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.facebook-logo > img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+ }
+
+ .login-footer {
+    width: 1280px;
+    height: 300px;
+    display: flex;
+ }
+
+ .login-footer-float-one {
+    width: 1314px;
+    height: 231.049px;
+    transform: rotate(2.001deg);
+    flex-shrink: 0;
+ }
+
+ .login-footer-float-two {
+    width: 1474.172px;
+    height: 80px;
+    position: relative;
+    transform: rotate(1.864deg);
+    flex-shrink: 0;
+ }
+
+ .side-design-left {
+    width: 220.173px;
+    height: 173.751px;
+    flex-shrink: 0;
+    margin-top: 200px;
+ }
