@@ -1,27 +1,27 @@
-
 .body-container {
     width: 1280px;
     height: 832px;
     background: #F7F7F7;
     margin: auto;
+    position: relative;
 }
 
 .nav-parent {
-width: 1280px;
-height: 90px;
-flex-shrink: 0;
-background: #DFDFDF;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-margin-bottom: 86px;
+    width: 1280px;
+    height: 90px;
+    flex-shrink: 0;
+    background: #DFDFDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-bottom: 86px;
 }
 
 .nav-logo {
-display: flex;
-width: 128px;
-height: 77px;
+    display: flex;
+    width: 128px;
+    height: 77px;
 }
 
 .login-parent {
@@ -29,55 +29,58 @@ height: 77px;
     height: 382px;
     flex-shrink: 0;
     display: flex;
+    position: relative;
 }
 
 .logo-card {
     width: 633px;
     height: 381.677px;
     flex-shrink: 0;
-    border: 1px solid;
     margin-left: 38px;
+    display: flex;
+    position: relative;
 }
 
 
 .logo-header {
-color: #000;
-font-family: Open Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 163px;
-margin-bottom: 8px;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 163px;
+    margin-bottom: 8px;
 }
+
 input {
-width: 330px;
-height: 60px;
-flex-shrink: 0;
-border-radius: 5px;
-border: 1px solid #887E7E;
-margin-left: 163px;
-margin-bottom: 8px;
-box-sizing: border-box;
-padding-left: 10px;
+    width: 330px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #887E7E;
+    margin-left: 163px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    padding-left: 10px;
 }
 
 .forgot-password {
     width: 132px;
     height: 22px;
     color: #635C5C;
-font-family: Open Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 361px;
-cursor: pointer;
-margin-bottom: 18px;
-margin-top: 7px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 361px;
+    cursor: pointer;
+    margin-bottom: 18px;
+    margin-top: 7px;
 }
 
-.login-btn{
+.login-btn {
     width: 330px;
     height: 60px;
     flex-shrink: 0;
@@ -115,6 +118,7 @@ button {
     margin-left: 163px;
     margin-top: 31px;
 }
+
 .zip-line-one {
     width: 132px;
     height: 3px;
@@ -133,15 +137,15 @@ button {
     font-weight: 400;
     line-height: normal;
     text-align: center;
-    
+
 }
 
 .zip-line-two {
-width: 132px;
-height: 3px;
-flex-shrink: 0;
-margin-top: 4px;
-background: linear-gradient(228deg, #CA4365 0%, rgba(196, 196, 196, 0.00) 100%);
+    width: 132px;
+    height: 3px;
+    flex-shrink: 0;
+    margin-top: 4px;
+    background: linear-gradient(228deg, #CA4365 0%, rgba(196, 196, 196, 0.00) 100%);
 }
 
 .social-media {
@@ -168,10 +172,10 @@ background: linear-gradient(228deg, #CA4365 0%, rgba(196, 196, 196, 0.00) 100%);
     cursor: pointer;
 }
 
-.google-logo > img {
-   width: 23px;
-   height: 23px;
-   cursor: pointer;
+.google-logo>img {
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
 
 }
 
@@ -188,36 +192,288 @@ background: linear-gradient(228deg, #CA4365 0%, rgba(196, 196, 196, 0.00) 100%);
     cursor: pointer;
 }
 
-.facebook-logo > img {
+.facebook-logo>img {
     width: 50px;
     height: 50px;
     cursor: pointer;
- }
+}
 
- .login-footer {
+.login-footer {
     width: 1280px;
     height: 300px;
     display: flex;
- }
+}
 
- .login-footer-float-one {
+/* .login-footer-float-one > img {
+    position: absolute;
+    margin-bottom: 100px;
+} */
+.login-footer-float-one {
     width: 1314px;
-    height: 231.049px;
+    height: 120px;
     transform: rotate(2.001deg);
-    flex-shrink: 0;
- }
+    position: absolute;
+    z-index: 1;
+    margin-top: 250px;
+}
 
- .login-footer-float-two {
+.login-footer-float-two {
     width: 1474.172px;
-    height: 80px;
+    height: 140px;
     position: relative;
-    transform: rotate(1.864deg);
+    box-sizing: border-box;
+    margin-bottom: 300px;
+    transform: rotate(1.850deg);
     flex-shrink: 0;
- }
+}
 
- .side-design-left {
+
+.side-design-left {
     width: 220.173px;
     height: 173.751px;
     flex-shrink: 0;
-    margin-top: 200px;
- }
+    margin-top: 207.66px;
+    position: relative;
+}
+
+.door-icon {
+    width: 265.569px;
+    height: 380.842px;
+    flex-shrink: 0;
+    fill: #F2F2F2;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.door-inside {
+    width: 265.569px;
+    height: 380.842px;
+    flex-shrink: 0;
+    background-color: #F2F2F2;
+    border-top-right-radius: 120px;
+    border-top-left-radius: 120px;
+}
+
+.window {
+    width: 210.273px;
+    height: 380.839px;
+    flex-shrink: 0;
+    background-color: #CCCCCC;
+    border-top-right-radius: 120px;
+    border-top-left-radius: 120px;
+    position: relative;
+}
+
+.window-handle {
+    width: 23.283px;
+    height: 23.482px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #CA4365;
+    position: absolute;
+    margin-top: 237px;
+    margin-left: 181.53px;
+}
+
+.window-glass {
+    width: 104.045px;
+    height: 222.341px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 78.88px;
+    border-radius: 5px;
+}
+
+.glass-line-vertical {
+    display: flex;
+}
+
+.glass-line-vertical-one {
+    margin-left: 32.74px;
+}
+
+.glass-line-vertical-two {
+    margin-left: 32.74px;
+}
+
+
+
+.human-icon {
+    width: 79.414px;
+    height: 225px;
+    flex-shrink: 0;
+    margin-left: 200px;
+    margin-top: 143px;
+    position: relative;
+    z-index: 1;
+}
+
+.human-icon-body {
+    width: 79.414px;
+    height: 100.438px;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 3px;
+}
+
+.human-icon-legs {
+    width: 63.36px;
+    height: 121.811px;
+    flex-shrink: 0;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.human-head {
+    width: 41.766px;
+    height: 42.104px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 425px;
+    top: 80px;
+    /* Equalize the top position to 80px */
+    left: 18px;
+    /* Adjust the left position for better alignment */
+}
+
+.human-face {
+    width: 35.74px;
+    height: 36.046px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #FFB8B8;
+    position: relative;
+    margin-top: 2px;
+}
+
+.human-hair {
+    width: 41.766px;
+    height: 42.104px;
+    box-sizing: border-box;
+    position: absolute;
+    top: -10px;
+    left: -3px;
+}
+
+
+.human-face>img {
+    margin-bottom: 15px;
+    position: absolute;
+}
+
+.human-hand-one {
+    width: 49.874px;
+    height: 99.432px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 400px;
+}
+
+.human-hand-two {
+    width: 23.31px;
+    height: 102.139px;
+    flex-shrink: 0;
+    margin-top: 163.29px;
+    margin-left: 481px;
+    position: absolute;
+}
+
+.human-leg-pair-left {
+    width: 28.034px;
+    height: 10.924px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 365px;
+    margin-left: 428px;
+}
+
+.human-leg-pair-right {
+    width: 28.034px;
+    height: 10.924px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 365px;
+    margin-left: 474px;
+}
+
+.human-legs-left {
+    width: 13.166px;
+    height: 34.7px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 337px;
+    margin-left: 440px;
+}
+
+.human-legs-right {
+    width: 13.166px;
+    height: 34.7px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 337px;
+    margin-left: 484px;
+}
+
+.shirt-logo {
+    width: 44px;
+    height: 11px;
+    transform: rotate(1.84deg);
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 158px;
+    margin-left: 443px;
+    z-index: 1;
+}
+
+.side-design-right {
+    width: 160.301px;
+    height: 126.473px;
+    flex-shrink: 0;
+    margin-top: 256px;
+    position: relative;
+}
+
+.side-design-right-line {
+    width: 87.87px;
+    height: 118.087px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 550px;
+}
+
+.side-design-left-line {
+    position: absolute;
+    margin-top: 224px;
+    margin-left: 30px;
+}
+
+.glass-line-horizontal-one {
+    width: 104.045px;
+    height: 1.86px;
+    flex-shrink: 0;
+    position: absolute;
+    background-color: #CCCCCC;
+    margin-left: 259px;
+    margin-top: 150px;
+    z-index: 1;
+}
+
+.glass-line-horizontal-two {
+    width: 104.045px;
+    height: 1.86px;
+    flex-shrink: 0;
+    position: absolute;
+    background-color: #CCCCCC;
+    margin-left: 259px;
+    margin-top: 240px;
+    z-index: 1;
+}

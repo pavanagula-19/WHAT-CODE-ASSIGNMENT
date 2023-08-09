@@ -12,7 +12,7 @@ const LoginForm = () => {
             <input placeholder='Username or Phone'/>
           </div>
           <div className='input'>
-             <input placeholder='Password'/>
+             <input placeholder='Password' type='password'/>
           </div>
           <div className='forgot-password'>
           Forgot Password?
