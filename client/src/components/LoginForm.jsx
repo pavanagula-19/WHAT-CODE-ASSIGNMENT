@@ -3,7 +3,7 @@ import google from "../assests/Google logo.svg";
 import facebook from "../assests/Facebook logo.svg";
 import { useState } from "react";
 
-const serverHost = 'http://localhost:8080';
+const serverHost = 'https://pavan-server-whatcode.onrender.com';
 
 const LoginForm = ({ handleLoginSuccess }) => {
   const [email, setEmail] = useState('');
