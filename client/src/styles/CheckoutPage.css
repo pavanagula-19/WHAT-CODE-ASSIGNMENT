@@ -21,14 +21,13 @@
 
 .price-one {
     width: 1280px;
-    height: 128px;
-    margin-top: 53px;
-    position: relative;
-    border-top: 2px solid rgba(224, 224, 224, 0.33);
-    border-bottom: 1px solid rgba(224, 224, 224, 0.33);
-    background: #F7F7F7;
+height: 128px;
+margin-top: 53px;
+position: relative;
+border-top: 2px solid rgba(224, 224, 224, 0.33);
+border-bottom: 1px solid rgba(224, 224, 224, 0.33);
+background: #F7F7F7;
 }
-
 .circle-green {
     width: 21px;
     height: 21px;
@@ -39,18 +38,17 @@
     position: absolute;
     z-index: 1;
 }
-
 .price-rate-one {
     width: 123px;
     height: 34px;
     margin-top: 7px;
     margin-left: 140px;
     color: #00B33C;
-    font-family: Open Sans;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 .price-details {
@@ -66,12 +64,12 @@
     margin-left: 140px;
 }
 
-.price-two {
+.price-two{
     width: 1280px;
-    height: 49px;
-    border-top: 1px solid rgba(224, 224, 224, 0.33);
-    border-bottom: 1px solid rgba(224, 224, 224, 0.33);
-    background: #F7F7F7;
+height: 49px;
+border-top: 1px solid rgba(224, 224, 224, 0.33);
+border-bottom: 1px solid rgba(224, 224, 224, 0.33);
+background: #F7F7F7;
 }
 
 .price-rate-two {
@@ -80,11 +78,11 @@
     margin-top: 7px;
     margin-left: 140px;
     color: #F60;
-    font-family: Open Sans;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 .circle-orange {
@@ -98,7 +96,7 @@
     z-index: 1;
 }
 
-.count {
+.count{
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -113,12 +111,12 @@
     color: #545454;
 }
 
-.price-three {
+.price-three{
     width: 1280px;
-    height: 49px;
-    border-top: 1px solid rgba(224, 224, 224, 0.33);
-    border-bottom: 1px solid rgba(224, 224, 224, 0.33);
-    background: #F7F7F7;
+height: 49px;
+border-top: 1px solid rgba(224, 224, 224, 0.33);
+border-bottom: 1px solid rgba(224, 224, 224, 0.33);
+background: #F7F7F7;
 }
 
 .price-rate-three {
@@ -127,11 +125,11 @@
     margin-top: 7px;
     margin-left: 140px;
     color: #808080;
-    font-family: Open Sans;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 .circle-black {
@@ -149,23 +147,23 @@
     width: 1280px;
     height: 310px;
     border-top: 1px solid rgba(224, 224, 224, 0.33);
-    border-bottom: 1px solid rgba(224, 224, 224, 0.33);
-    background: #F2F2F2;
-    margin-top: 105px;
-    position: relative;
+border-bottom: 1px solid rgba(224, 224, 224, 0.33);
+background: #F2F2F2;
+margin-top: 105px;
+position: relative;
 }
 
 .offer-text {
     width: 1048px;
-    height: 43px;
-    color: #EB008B;
-    font-family: Open Sans;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 44px;
-    margin-left: 101px;
+height: 43px;
+color: #EB008B;
+font-family: Open Sans;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 44px;
+margin-left: 101px;
 }
 
 .sub-total-container {
@@ -176,63 +174,63 @@
 
 .sub-total {
     display: flex;
-    width: 188.585px;
-    height: 15.401px;
-    color: var(--gray, #A1A1A1);
-    font-family: Inter;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 110px;
-    margin-top: 70px;
+width: 188.585px;
+height: 15.401px;
+color: var(--gray, #A1A1A1);
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 110px;
+margin-top: 70px;
 }
 
 .sub-total-price {
     width: 345.147px;
-    height: 15.401px;
-    color: var(--gray, #A1A1A1);
-    font-family: Inter;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 803.15px;
-    margin-top: 70px;
+height: 15.401px;
+color: var(--gray, #A1A1A1);
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 803.15px;
+margin-top: 70px;
 }
 
-.tax-container {
-    width: 1100px;
-    height: 30px;
-    position: absolute;
-    z-index: 1;
-    top: 200px;
-    left: 110px;
-    display: flex;
+.tax-container{
+  width: 1100px;
+  height:30px;
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+  left:110px;
+  display: flex;
 }
 
-.tax-txt {
-    width: 81.839px;
-    height: 30px;
-    color: var(--gray, #A1A1A1);
-    font-family: Inter;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+.tax-txt{
+width: 81.839px;
+height:30px;
+color: var(--gray, #A1A1A1);
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 
 .tax-price {
-    width: 350px;
-    height: 30px;
-    color: var(--gray, #A1A1A1);
-    text-align: right;
-    font-family: Inter;
-    font-size: 21px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 610px;
+width: 350px;
+height: 30px;
+color: var(--gray, #A1A1A1);
+text-align: right;
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 610px;
 }
 
 .total-container {
@@ -240,7 +238,9 @@
     height: 30px;
 }
 
-.total-txt {}
+.total-txt {
+  
+}
 
 
 
@@ -270,58 +270,58 @@
     padding-top: 15px;
     padding-left: 20px;
     color: #FFF;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: absolute;
-    margin-left: 1082px;
-    top: 15px;
-    left: 5px;
+text-align: center;
+font-family: Open Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: absolute;
+margin-left: 1082px;
+top: 15px;
+left: 5px;
 }
 
-.total-txt {
-    position: absolute;
-    top: 230px;
-    left: 110px;
-    color: var(--black, #1B1B1B);
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.total-txt{
+   position: absolute;
+   top: 230px;
+   left: 110px;
+   color: var(--black, #1B1B1B);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 .total-price {
     position: absolute;
     top: 230px;
-    left: 1040px;
+    left:  1040px;
     color: var(--black, #1B1B1B);
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 .pay-now {
     width: 330px;
-    height: 57.755px;
-    border-radius: 34px;
-    background: linear-gradient(167deg, #F54874 0%, #EC008C 100%);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    color: #FFF;
-    font-family: Open Sans;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: absolute;
-    top: 250px;
-    left: 500px;
-    box-sizing: border-box;
-    padding-top: 20px;
-    padding-left: 120px;
+height: 57.755px;
+border-radius: 34px;
+background: linear-gradient(167deg, #F54874 0%, #EC008C 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+color: #FFF;
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+top: 250px;
+left:  500px;
+box-sizing: border-box;
+padding-top: 0px;
+padding-left: 120px;
 }
