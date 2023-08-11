@@ -1,7 +1,6 @@
 .booking-container {
     width: 1280px;
     height: 1159px;
-    border: 1px solid;
     margin: auto;
     background-color: #FFFFFF;
 }
@@ -53,28 +52,29 @@
     display: flex;
     margin-top: 48px;
     margin-right: 261px;
+    position: relative;
     border-radius: 50px;
     background: #FFF;
-    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
-    border: 1px solid;
+    box-shadow: 1px 4px 15px 0px rgba(0, 0, 0, 0.25);
 }
 
 
-.booking-search-input>input {
-    width: 100%;
+.booking-search-input input {
+    width: 757px;
     height: 40px;
     border: none;
     box-sizing: border-box;
-    padding-left: 19px;
+    /* padding-left: 19px; */
     border-radius: 50px;
-    position: relative;
+    position: absolute;
+    right: 10px;
 }
 
 .booking-search-input>img {
-    max-width: 100%;
+
     height: 17.575px;
     box-sizing: border-box;
-    padding-right: 10px;
+    /* padding-right: 10px; */
     position: absolute;
     margin-left: 710px;
     margin-top: 10px;
@@ -132,6 +132,7 @@
     font-weight: 700;
     line-height: normal;
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 .booking-location-order-icon {
@@ -207,17 +208,17 @@
 .booking-order-footer-title {
     width: 632px;
     height: 50px;
-    
+
     margin-top: 44px;
     margin-left: 324px;
     color: #7C7C7C;
-text-align: center;
-font-family: Open Sans;
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-position: relative;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
 }
 
 .booking-order-footer-contact {
@@ -228,21 +229,21 @@ position: relative;
     position: relative;
 }
 
-.booking-order-footer-contact > img {
-   position: relative;
+.booking-order-footer-contact>img {
+    position: relative;
 }
 
 .booking-order-footer-contact-title {
     color: #020202;
-text-align: center;
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-position: absolute;
-z-index: 1;
-bottom: 13px;
-left: 45px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 1;
+    bottom: 13px;
+    left: 45px;
 
 }

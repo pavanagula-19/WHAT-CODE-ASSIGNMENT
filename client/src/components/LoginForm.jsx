@@ -5,18 +5,18 @@ import { useState } from "react";
 
 const serverHost = 'http://localhost:8080';
 
-const LoginForm = ({handleLoginSuccess}) => {
+const LoginForm = ({ handleLoginSuccess }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleLogin = async (event) => {
     event.preventDefault();
-   
+
     try {
       const response = await axios.post(`${serverHost}/auth/login`, { email, password });
       console.log(response.data)
       handleLoginSuccess()
-  
+
     } catch (error) {
       console.error("Error:", error.message);
       console.log("Error details:", error.response); // Log the response object for more details

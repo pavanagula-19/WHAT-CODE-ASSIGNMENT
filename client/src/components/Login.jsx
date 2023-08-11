@@ -4,11 +4,11 @@ import NavBar from './NavBar'
 import LoginCard from './LoginCard'
 import LoginFooter from './LoginFooter'
 
-const Login = () => {
+const Login = ({handleLoginSuccess}) => {
   return <>
        <div className='body-container'>
             <NavBar /> 
-            <LoginCard /> 
+            <LoginCard handleLoginSuccess={handleLoginSuccess}/> 
            <LoginFooter />
             
        </div>

@@ -5,7 +5,7 @@ import humanShirt from "../assests/human-shirt.svg"
 import humanLegs from "../assests/human-legs.svg"
 import humanHead from "../assests/human-head.svg"
 import humanHandOne from "../assests/human-hand-one.svg"
-import windowGlass from  "../assests/window-glass.svg"
+import windowGlass from "../assests/window-glass.svg"
 import humanHandTwo from "../assests/human-hand-two.svg"
 import humanShoes from "../assests/human-shoe.svg"
 import humanLegSkin from "../assests/human-legs-skin.svg"
@@ -17,9 +17,9 @@ const HomeLogo = () => {
   return <>
     <div className='logo-card'>
       <div className='side-design-left'>
-         <img src={vector} alt='img'/>
+        <img src={vector} alt='img' />
       </div>
-      
+
       <div className='door-icon'>
         <div className='door-inside'>
           <div className='window'>
@@ -31,67 +31,67 @@ const HomeLogo = () => {
       </div>
       <div className='human-icon'>
         <div className='human-icon-body'>
-            <img src={humanShirt} alt='shirt'/>
+          <img src={humanShirt} alt='shirt' />
         </div>
         <div className='human-icon-legs'>
-           <img src={humanLegs} alt='legs' />
+          <img src={humanLegs} alt='legs' />
         </div>
       </div>
       <div className='human-head'>
         <div className='human-face'>
         </div>
         <div className='human-hair'>
-        <img src={humanHead} alt='head'/>
+          <img src={humanHead} alt='head' />
         </div>
       </div>
       <div className='human-hand-one'>
-         <img src={humanHandOne} alt='hand'/>
-        </div>
-        <div className='human-hand-two'>
-         <img src={humanHandTwo} alt='hand'/>
-        </div>
+        <img src={humanHandOne} alt='hand' />
+      </div>
+      <div className='human-hand-two'>
+        <img src={humanHandTwo} alt='hand' />
+      </div>
       <div className='human-leg-pair-left'>
-        <img src={humanShoes} alt='shoe'/>
+        <img src={humanShoes} alt='shoe' />
       </div>
       <div className='human-leg-pair-right'>
-      <img src={humanShoes} alt='shoe'/>
+        <img src={humanShoes} alt='shoe' />
       </div>
       <div className='human-legs-left'>
-        <img src={humanLegSkin} alt='legs'/>
+        <img src={humanLegSkin} alt='legs' />
       </div>
       <div className='human-legs-right'>
-      <img src={humanLegSkin} alt='legs'/>
+        <img src={humanLegSkin} alt='legs' />
       </div>
-        <div className='window-glass'>
-          <div className='glass-line-vertical'>
+      <div className='window-glass'>
+        <div className='glass-line-vertical'>
           <div className='glass-line-vertical-one'>
-          <img src={windowGlass} alt='glass' />
+            <img src={windowGlass} alt='glass' />
           </div>
           <div className='glass-line-vertical-two'>
-          <img src={windowGlass} alt='glass' />
+            <img src={windowGlass} alt='glass' />
           </div>
-          </div>
         </div>
-        <div className='shirt-logo'>
-          <img src={shirtLogo} alt='shirt-logo'/>
-        </div>
-        <div className='side-design-right'>
-           <img src= {sideDesignRight} alt='img'/>
-        </div>
-        <div className='side-design-right-line'>
-          <img src={sideDesignRightLiner} alt='img'/>
-        </div>
-        <div className='side-design-left-line'>
-         <img src={sideDesignLeftLiner} alt='img'/>
+      </div>
+      <div className='shirt-logo'>
+        <img src={shirtLogo} alt='shirt-logo' />
+      </div>
+      <div className='side-design-right'>
+        <img src={sideDesignRight} alt='img' />
+      </div>
+      <div className='side-design-right-line'>
+        <img src={sideDesignRightLiner} alt='img' />
+      </div>
+      <div className='side-design-left-line'>
+        <img src={sideDesignLeftLiner} alt='img' />
       </div>
       <div className='glass-line-horizontal-one'>
-         
+
       </div>
       <div className='glass-line-horizontal-two'>
-         
-         </div>
+
+      </div>
     </div>
-    </>
+  </>
 }
 
 export default HomeLogo;

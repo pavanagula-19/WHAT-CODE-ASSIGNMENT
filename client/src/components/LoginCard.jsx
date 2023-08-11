@@ -2,11 +2,11 @@ import React from 'react'
 import HomeLogo from './HomeLogo'
 import LoginForm from './LoginForm'
 
-const LoginCard = () => {
+const LoginCard = ({handleLoginSuccess}) => {
   return <>
       <div className='login-parent'>
              <HomeLogo />
-             <LoginForm />
+             <LoginForm handleLoginSuccess={handleLoginSuccess} />
       </div>
   </>
 }

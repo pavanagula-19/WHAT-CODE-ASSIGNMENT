@@ -41,11 +41,12 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.navbar-btn-one > img {
+.navbar-btn-one>img {
     position: absolute;
     z-index: 1;
-    margin-right:150px;
+    margin-right: 150px;
 }
+
 
 
 .navbar-btn-one>button {
@@ -61,13 +62,13 @@
     padding-top: 15px;
     padding-left: 20px;
     color: #FFF;
-text-align: center;
-font-family: Open Sans;
-font-size: 19px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-position: relative;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
 }
 
 .navbar-btn-two {
@@ -79,10 +80,10 @@ position: relative;
 
 }
 
-.navbar-btn-two > img {
+.navbar-btn-two>img {
     position: absolute;
     z-index: 1;
-    margin-right:150px;
+    margin-right: 150px;
 }
 
 
@@ -153,18 +154,18 @@ position: relative;
     width: 35.425px;
     height: 24px;
     color: #00B33C;
-font-family: Open Sans;
-font-size: 17px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .category-grade-color-green {
     width: 21.8px;
-height: 24px;
-background-color: #00B33C;
-border-radius: 50%;
+    height: 24px;
+    background-color: #00B33C;
+    border-radius: 50%;
 }
 
 
@@ -180,18 +181,18 @@ border-radius: 50%;
     width: 35.425px;
     height: 24px;
     color: #F60;
-font-family: Open Sans;
-font-size: 17px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .category-grade-color-orange {
     width: 21.8px;
-height: 24px;
-background-color: #F60;
-border-radius: 50%;
+    height: 24px;
+    background-color: #F60;
+    border-radius: 50%;
 }
 
 
@@ -207,158 +208,158 @@ border-radius: 50%;
     width: 35.425px;
     height: 24px;
     color: #808080;
-font-family: Open Sans;
-font-size: 17px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .category-grade-color-black {
     width: 21.8px;
-height: 24px;
-background-color: #808080;
-border-radius: 50%;
+    height: 24px;
+    background-color: #808080;
+    border-radius: 50%;
 }
 
 .price-row-one {
     width: 1282px;
-height: 83px;
-border-top: 1px solid rgba(209, 209, 209, 0.33);
-border-bottom: 1px solid rgba(209, 209, 209, 0.33);
-background: #F2F2F2;
-display: flex;
+    height: 83px;
+    border-top: 1px solid rgba(209, 209, 209, 0.33);
+    border-bottom: 1px solid rgba(209, 209, 209, 0.33);
+    background: #F2F2F2;
+    display: flex;
 }
 
 .price-row-one-one {
     width: 35px;
-height: 35.571px;
-background-color: #00B33C;
-margin-top: 21px;
-margin-left: 130px;
-border-radius: 50%;
+    height: 35.571px;
+    background-color: #00B33C;
+    margin-top: 21px;
+    margin-left: 130px;
+    border-radius: 50%;
 }
 
-.price-row-one-one > img{
+.price-row-one-one>img {
     width: 22px;
-height: 20.917px;
-margin-top: 7px;
-margin-left: 6px;
+    height: 20.917px;
+    margin-top: 7px;
+    margin-left: 6px;
 }
 
 .price-rate-one {
     width: 88px;
-height: 25px;
-color: #00B33C;
-font-family: Open Sans;
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 27px;
-margin-left: 11px;
+    height: 25px;
+    color: #00B33C;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 12px;
 }
 
 .price-row-one-two {
     width: 100px;
-height: 31px;
-color: #00B33C;
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 31px;
-margin-left: 34px;
+    height: 31px;
+    color: #00B33C;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 31px;
+    margin-left: 34px;
 
 }
 
 .price-row-one-three {
     width: 22px;
     height: 22px;
-    margin-left: 522px;
+    margin-left: 357px;
     margin-top: 35px;
 }
 
-.price-row-one-three > img {
+.price-row-one-three>img {
     margin-left: 92px;
     position: relative;
 }
 
 .price-row-one-four {
-width: 10px;
-height: 37.265px;
-margin-top: 31px;
-margin-left: 70%;
-position: absolute;
-z-index: 1;
-color: #545454;
-text-align: center;
-font-family: Open Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    width: 10px;
+    height: 37.265px;
+    margin-top: 28px;
+    margin-left: 1065px;
+    position: absolute;
+    z-index: 1;
+    color: #545454;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .price-row-one-five {
     width: 22px;
-height: 22px;
-margin-top: 37px;
-position: absolute;
-z-index: 1;
-margin-left: 1100px;
+    height: 22px;
+    margin-top: 37px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 1100px;
 }
 
 .price-row-two {
     width: 1282px;
-height: 49px;
-border-top: 1px solid rgba(209, 209, 209, 0.33);
-border-bottom: 1px solid rgba(209, 209, 209, 0.33);
-background: #F2F2F2;
-display: flex;
+    height: 49px;
+    border-top: 1px solid rgba(209, 209, 209, 0.33);
+    border-bottom: 1px solid rgba(209, 209, 209, 0.33);
+    background: #F2F2F2;
+    display: flex;
 }
 
 .price-row-two-one {
     width: 21px;
-height: 21px;
-background-color: #F60;
-border-radius: 50%;
-margin-top: 14px;
-margin-left: 136px;
+    height: 21px;
+    background-color: #F60;
+    border-radius: 50%;
+    margin-top: 14px;
+    margin-left: 136px;
 }
 
 .price-rate-two {
     width: 71px;
     height: 23px;
     color: #F60;
-font-family: Open Sans;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-top: 13px;
-margin-left: 18px;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 13px;
+    margin-left: 18px;
 }
+
 .price-row-two-two {
     width: 62px;
     height: 18px;
     color: #F60;
-font-family: Open Sans;
-font-size: 13px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-top: 16px;
-margin-left: 52px;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 16px;
+    margin-left: 52px;
 }
 
 .price-row-two-three {
     width: 22px;
-height: 22px;
-margin-top: 15px;
-margin-left: 1012px;
-position: absolute;
+    height: 22px;
+    margin-top: 15px;
+    margin-left: 1012px;
+    position: absolute;
 
 }
 
@@ -369,41 +370,42 @@ position: absolute;
     position: absolute;
     margin-left: 1063px;
     color: #545454;
-text-align: center;
-font-family: Open Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-    
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
 }
+
 .price-row-two-five {
     width: 22px;
-height: 22px;
-margin-top: 15px;
-position: absolute;
-margin-left: 1100px;
+    height: 22px;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 1100px;
 }
 
 
 
 .price-row-three {
     width: 1282px;
-height: 49px;
-border-top: 1px solid rgba(209, 209, 209, 0.33);
-border-bottom: 1px solid rgba(209, 209, 209, 0.33);
-background: #F2F2F2;
- display: flex;
+    height: 49px;
+    border-top: 1px solid rgba(209, 209, 209, 0.33);
+    border-bottom: 1px solid rgba(209, 209, 209, 0.33);
+    background: #F2F2F2;
+    display: flex;
 }
 
 
 .price-row-three-one {
     width: 21px;
-height: 21px;
-background-color: #808080;
-border-radius: 50%;
-margin-top: 14px;
-margin-left: 136px;
+    height: 21px;
+    background-color: #808080;
+    border-radius: 50%;
+    margin-top: 14px;
+    margin-left: 136px;
 }
 
 .price-rate-three {
@@ -415,28 +417,29 @@ margin-left: 136px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-margin-top: 13px;
-margin-left: 18px;
+    margin-top: 13px;
+    margin-left: 18px;
 }
+
 .price-row-three-two {
     width: 62px;
     height: 18px;
     color: #808080;
-font-family: Open Sans;
-font-size: 13px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-top: 16px;
-margin-left: 52px;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 16px;
+    margin-left: 52px;
 }
 
 .price-row-three-three {
     width: 22px;
-height: 22px;
-margin-top: 15px;
-margin-left: 1012px;
-position: absolute;
+    height: 22px;
+    margin-top: 15px;
+    margin-left: 1012px;
+    position: absolute;
 
 }
 
@@ -447,35 +450,34 @@ position: absolute;
     position: absolute;
     margin-left: 1063px;
     color: #545454;
-text-align: center;
-font-family: Open Sans;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-    
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
 }
+
 .price-row-three-five {
     width: 22px;
-height: 22px;
-margin-top: 15px;
-position: absolute;
-margin-left: 1100px;
+    height: 22px;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 1100px;
 }
 
 .back-to-city {
     width: 124px;
     height: 26px;
-   
+    cursor: pointer;
     margin-top: 35px;
     margin-left: 581px;
     color: #7C7C7C;
-font-family: Open Sans;
-font-size: 19px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-decoration-line: underline;
+    font-family: Open Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
 }
-
-
